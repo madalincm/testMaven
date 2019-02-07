@@ -12,10 +12,8 @@ public class testMaven {
 
 
     public static void main(String[] args) {
-        File webdriverFile = new File("chromedriver/chromedriver.exe");
-        String webdriverPath = webdriverFile.getAbsolutePath();
 
-        System.setProperty("webdriver.chrome.driver", webdriverPath);
+        System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
 
         ChromeDriver chromeDriver = new ChromeDriver();
         chromeDriver.get("http://automationpractice.com/index.php");
