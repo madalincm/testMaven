@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57ca4505-18d5-455e-a9ed-c63b2ec0e550" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/testMaven.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testMaven.iml" afterPath="$PROJECT_DIR$/testMaven.iml" />
-    </list>
+    <list default="true" id="57ca4505-18d5-455e-a9ed-c63b2ec0e550" name="Default" comment="" />
     <ignored path="testMaven.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,26 +23,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestMaven.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestMaven.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1262525">
-              <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.68136275">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#5317#5318#0" expanded="true" />
-                <element signature="e#5346#5347#0" expanded="true" />
+                <element signature="e#5486#5487#0" expanded="true" />
+                <element signature="e#5515#5516#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -695,12 +680,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMaven_clickSignInButtonWithValidEmailInvalidPassword - 2019.02.12 at 17h 04m 37s.xml">
-      <configuration name="TestMaven.clickSignInButtonWithValidEmailInvalidPassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.12 at 17h 04m 54s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Unnamed - 2019.02.12 at 17h 05m 51s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
@@ -723,6 +702,12 @@
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Unnamed - 2019.02.12 at 17h 11m 51s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.12 at 17h 27m 02s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.12 at 17h 28m 09s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -790,8 +775,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#5317#5318#0" expanded="true" />
-            <element signature="e#5346#5347#0" expanded="true" />
+            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#5515#5516#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -811,8 +796,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#5317#5318#0" expanded="true" />
-            <element signature="e#5346#5347#0" expanded="true" />
+            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#5515#5516#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -832,8 +817,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#5317#5318#0" expanded="true" />
-            <element signature="e#5346#5347#0" expanded="true" />
+            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#5515#5516#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,21 +833,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.6828753">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestMaven.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1262525">
-          <caret line="130" column="8" selection-start-line="130" selection-start-column="8" selection-end-line="130" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.68136275">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#5317#5318#0" expanded="true" />
-            <element signature="e#5346#5347#0" expanded="true" />
+            <element signature="e#5486#5487#0" expanded="true" />
+            <element signature="e#5515#5516#0" expanded="true" />
           </folding>
         </state>
       </provider>

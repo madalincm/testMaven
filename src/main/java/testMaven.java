@@ -22,8 +22,15 @@ public class TestMaven {
 
     @BeforeClass
     public void setup() {
+        //Chrome tests
         System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
         driver = new ChromeDriver();
+
+
+        //Firefox tests
+//        System.setProperty("webdriver.gecko.driver", "geckodriver/geckodriver.exe");
+//        driver = new FirefoxDriver();
+
         driver.get(baseUrl);
     }
 
@@ -128,7 +135,7 @@ public class TestMaven {
 
         emailField.clear();
         passwordField.clear();
-        
+
         emailField.sendKeys("madalincotetiu@gmail.com");
         passwordField.sendKeys("test1923");
         submitButton.click();
