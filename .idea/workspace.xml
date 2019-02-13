@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57ca4505-18d5-455e-a9ed-c63b2ec0e550" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/testMaven.class" afterPath="$PROJECT_DIR$/target/classes/testMaven.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testMaven.java" afterPath="$PROJECT_DIR$/src/main/java/testMaven.java" />
     </list>
     <ignored path="testMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +29,13 @@
       <file leaf-file-name="TestMaven.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestMaven.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42546245">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state vertical-scroll-proportion="1.0216666">
+              <caret line="139" column="94" selection-start-line="139" selection-start-column="94" selection-end-line="139" selection-end-column="94" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#6105#6106#0" expanded="true" />
+                <element signature="e#6134#6135#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +113,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,7 +156,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -681,21 +683,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2019.02.12 at 17h 05m 51s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.12 at 17h 06m 15s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.12 at 17h 06m 43s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.12 at 17h 07m 13s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.12 at 17h 07m 45s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Unnamed - 2019.02.12 at 17h 08m 20s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
@@ -711,6 +698,21 @@
     <history-entry file="Unnamed - 2019.02.12 at 17h 28m 09s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Unnamed - 2019.02.12 at 18h 05m 08s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.13 at 11h 25m 02s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.13 at 11h 26m 21s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.13 at 11h 27m 12s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.13 at 11h 29m 17s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -718,27 +720,27 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3368532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="CodotaView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22597677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -768,6 +770,21 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6105#6106#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestMaven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6105#6106#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,6 +804,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6105#6106#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -806,6 +825,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6105#6106#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,6 +846,8 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6105#6106#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -846,11 +869,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestMaven.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42546245">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state vertical-scroll-proportion="1.0216666">
+          <caret line="139" column="94" selection-start-line="139" selection-start-column="94" selection-end-line="139" selection-end-column="94" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6105#6106#0" expanded="true" />
+            <element signature="e#6134#6135#0" expanded="true" />
           </folding>
         </state>
       </provider>

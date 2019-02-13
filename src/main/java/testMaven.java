@@ -55,7 +55,6 @@ public class TestMaven {
         submitButton.click();
         String actualErrorMessage = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/ol[1]/li[1]")).getText();
         String expectedErrorMesage = "An email address required.";
-
         Assert.assertEquals(expectedErrorMesage, actualErrorMessage);
     }
 
@@ -63,15 +62,11 @@ public class TestMaven {
     public void clickSignInButtonWithInvalidEmailFormat() {
         WebElement emailField = driver.findElement(By.id("email"));
         WebElement submitButton = driver.findElement(By.id("SubmitLogin"));
-
         emailField.clear();
-
         emailField.sendKeys("test");
-
         submitButton.click();
         String actualErrorMessage = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/ol[1]/li[1]")).getText();
         String expectedErrorMesage = "Invalid email address.";
-
         Assert.assertEquals(expectedErrorMesage, actualErrorMessage);
     }
 
@@ -79,14 +74,11 @@ public class TestMaven {
     public void clickSignInButtonWithValidEmailEmptyPassword() {
         WebElement emailField = driver.findElement(By.id("email"));
         WebElement submitButton = driver.findElement(By.id("SubmitLogin"));
-
         emailField.clear();
         emailField.sendKeys("madalincotetiu@gmail.com");
-
         submitButton.click();
         String actualErrorMessage = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/ol[1]/li[1]")).getText();
         String expectedErrorMesage = "Password is required.";
-
         Assert.assertEquals(expectedErrorMesage, actualErrorMessage);
     }
 
@@ -95,15 +87,12 @@ public class TestMaven {
         WebElement emailField = driver.findElement(By.id("email"));
         WebElement submitButton = driver.findElement(By.id("SubmitLogin"));
         WebElement passwordField = driver.findElement(By.id("passwd"));
-
         emailField.clear();
         emailField.sendKeys("madalincotetiu@gmail.com");
         passwordField.sendKeys("test");
-
         submitButton.click();
         String actualErrorMessage = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/ol[1]/li[1]")).getText();
         String expectedErrorMesage = "Invalid password.";
-
         Assert.assertEquals(expectedErrorMesage, actualErrorMessage);
     }
 
@@ -112,17 +101,13 @@ public class TestMaven {
         WebElement emailField = driver.findElement(By.id("email"));
         WebElement submitButton = driver.findElement(By.id("SubmitLogin"));
         WebElement passwordField = driver.findElement(By.id("passwd"));
-
         emailField.clear();
         passwordField.clear();
-
         emailField.sendKeys("madalincotetiu@gmail.com");
         passwordField.sendKeys("testtest");
-
         submitButton.click();
         String actualErrorMessage = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/ol[1]/li[1]")).getText();
         String expectedErrorMesage = "Authentication failed.";
-
         Assert.assertEquals(expectedErrorMesage, actualErrorMessage);
     }
 
@@ -131,16 +116,31 @@ public class TestMaven {
         WebElement emailField = driver.findElement(By.id("email"));
         WebElement passwordField = driver.findElement(By.id("passwd"));
         WebElement submitButton = driver.findElement(By.id("SubmitLogin"));
-
         emailField.clear();
         passwordField.clear();
-
         emailField.sendKeys("madalincotetiu@gmail.com");
         passwordField.sendKeys("test1923");
         submitButton.click();
         String expectedTitle = "My account - My Store";
         String actualTitle = driver.getTitle();
+        Assert.assertEquals(expectedTitle, actualTitle);
+    }
 
+    @Test(priority = 5)
+    public void clckSignOutButton() {
+        WebElement signOutButton = driver.findElement(By.xpath("//a[@title='Log me out']"));
+        signOutButton.click();
+        String expectedTitle = "Login - My Store";
+        String actualTitle = driver.getTitle();
+        Assert.assertEquals(expectedTitle, actualTitle);
+    }
+
+    @Test(priority = 6)
+    public void clickLogo() {
+        WebElement logo = driver.findElement(By.xpath("//img[@class='logo img-responsive']"));
+        logo.click();
+        String expectedTitle = "My Store";
+        String actualTitle = driver.getTitle();
         Assert.assertEquals(expectedTitle, actualTitle);
     }
 
